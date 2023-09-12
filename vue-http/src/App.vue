@@ -1,13 +1,17 @@
 <template>
-  <parent />
+  <click-counter /> 
+  
+  <HoverCounter />
 </template>
 
 <script>
-import Parent from "./components/Parent.vue";
+import ClickCounter from './components/ClickCounter.vue';
+import HoverCounter from './components/HoverCounter.vue';
 export default {
   name: "App",
   components: {
-    Parent,
+    ClickCounter,
+    HoverCounter,
   },
 };
 </script>
